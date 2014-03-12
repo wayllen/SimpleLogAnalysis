@@ -1,6 +1,5 @@
 
-
-# Fine all KPI related lines and then output to a new file.
+# Find all KPI related lines and then output to a new file.
 #$logFile = Get-Content C:\ps-text-analysis.txt -ReadCount 0
 $logFile = Get-Content C:\KPI.txt -ReadCount 0
 $logParseStartTime = Get-Date -format HH:MM:ss
